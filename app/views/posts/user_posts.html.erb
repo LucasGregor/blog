@@ -5,7 +5,7 @@
     <div class="col-md-8 col-md-offset-2">
       <div class="well">
         <h3><%= post.title %></h3>
-        <p><em>posted on <%#= local_time(post.created_at, "%m/%d/%Y at %l:%M%P") %></em></p>
+        <p><em>posted on <%= local_time(post.created_at, "%m/%d/%Y at %l:%M%P") %></em></p>
         <p>
           <%= post.blog_entry.html_safe %>
         </p>

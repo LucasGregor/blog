@@ -19,6 +19,7 @@ gem 'jquery-rails'
 gem 'devise'
 gem 'carrierwave', '~> 1.0'
 gem 'kaminari'
+gem 'local_time'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes

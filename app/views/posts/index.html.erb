@@ -18,7 +18,7 @@ Welcome <%= current_user.username %>!
     <% @posts.each do |post| %>
       <tr class="well">
         <td><%= post.title %></td>
-        <td>by <em><%= link_to post.user.username, user_posts_path(id: post.user_id) %></em></td>
+        <td>by <em><%= link_to post.user.username, user_posts_path(name: post.user.username) %></em></td>
         <td><%= post.blog_entry %></td>
         <td><%= link_to 'Show', post %></td>
         <td><%= link_to 'Edit', edit_post_path(post) %></td>
