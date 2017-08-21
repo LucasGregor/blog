@@ -3,7 +3,7 @@
 Welcome <%= current_user.username %>!
 
 <h1>Posts</h1>
-
+<%= paginate @posts %>
 <table>
   <thead>
     <tr>
@@ -18,7 +18,7 @@ Welcome <%= current_user.username %>!
     <% @posts.each do |post| %>
       <tr class="well">
         <td><%= post.title %></td>
-        <td><%= post.user.username %></td>
+        <td>by <em><%= link_to post.user.username, user_posts_path(id: post.user_id) %></em></td>
         <td><%= post.blog_entry %></td>
         <td><%= link_to 'Show', post %></td>
         <td><%= link_to 'Edit', edit_post_path(post) %></td>
@@ -26,8 +26,9 @@ Welcome <%= current_user.username %>!
       </tr>
     <% end %>
   </tbody>
-</table>
 
+</table>
+<%= paginate @posts %>
 <br>
 
 
