@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  get 'epicenter/feed'
+
+  get 'epicenter/show_user'
+
+  get 'epicenter/now_following'
+
+  get 'epicenter/unfollow'
+
   devise_for :users
   resources :comments
   resources :posts

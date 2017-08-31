@@ -5,6 +5,91 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
+//
+// #paginateborder{
+//   border-style: solid;
+//   border-width: 2px;
+//   border-spacing: 20px;
+//   padding: 7px 15px;
+//   background:rgba(255,255,255, 0.8);
+// }
+#editpagebackbutton a{
+  color: white;
+}
+
+#posteditbuttons{
+  border-style: solid;
+  border-width: 2px;
+  border-spacing: 20px;
+  padding: 7px 15px;
+  background:rgba(255,255,255, 0.8);
+  width: 120px;
+  margin: 0 auto;
+}
+
+input.btn.btn-warning{
+  color: black;
+}
+
+input.btn.btn-primary{
+  color: black;
+}
+
+#blogeditcontent{
+  border-style: solid;
+  border-width: 2px;
+  border-spacing: 20px;
+  padding: 7px 15px;
+  background:rgba(255,255,255, 0.8);
+}
+
+#paginateborderbottom{
+  border-style: solid;
+  border-width: 2px;
+  border-spacing: 20px;
+  padding: 7px 15px;
+  background:rgba(255,255,255, 0.8);
+}
+
+// span.page.current {
+//   color: white;
+//   text-shadow: 2px 2px 4px rgba(150, 150, 150, 1);
+// }
+
+#post_body {
+  padding: 20px 70px;
+}
+
+.postcontainer{
+  // padding: 50px;
+  // margin: 55px;
+  -webkit-box-shadow: 0px 0px 51px 13px rgba(0,0,0,0.84);
+  -moz-box-shadow: 0px 0px 51px 13px rgba(0,0,0,0.84);
+  box-shadow: 0px 0px 51px 13px rgba(0,0,0,0.84);
+}
+
+.showeditdelete{
+  text-align: center;
+  padding: 45px 25px 5px 25px;
+}
+
+.showeditdelete a{
+  margin: 10px;
+}
+
+.postheader{
+  text-align: center;
+  padding: 20px;
+}
+
+#posttitle{
+  font-size: 20px;
+  margin: 10px;
+}
+
+// td #post_body .well{
+//   padding: 25px;
+// }
 
 body {
     background-image: url("http://cdn.wallpapersafari.com/11/38/AsCiWe.jpg");
@@ -12,6 +97,7 @@ body {
 
 table {
   width: 75%;
+  min-width: 400px;
   margin: 0 auto;
 }
 
@@ -19,87 +105,87 @@ table {
   margin: 25px 25px 100px 25px;
 }
 
-tbody {
-  margin: 55px;
-  -webkit-box-shadow: 0px 0px 51px 13px rgba(0,0,0,0.84);
-  -moz-box-shadow: 0px 0px 51px 13px rgba(0,0,0,0.84);
-  box-shadow: 0px 0px 51px 13px rgba(0,0,0,0.84);
-}
+// tbody {
+//   margin: 55px;
+//   -webkit-box-shadow: 0px 0px 51px 13px rgba(0,0,0,0.84);
+//   -moz-box-shadow: 0px 0px 51px 13px rgba(0,0,0,0.84);
+//   box-shadow: 0px 0px 51px 13px rgba(0,0,0,0.84);
+// }
 
 .container td .well{
   margin: 15px;
 }
 
-#post_body{
-  // padding: 10px 75px;
+// #post_body{
+//   // padding: 10px 75px;
+//
+//   width: 55%;
+// }
 
-  width: 55%;
-}
+// #post_side_buttons{
+//   color: white;
+//   text-shadow: 2px 2px 1px rgba(0, 0, 0, 1);
+//   // padding: 5px;
+//   // position: relative;
+//   // right: 2px;
+// }
 
-#post_side_buttons{
-  color: white;
-  text-shadow: 2px 2px 1px rgba(0, 0, 0, 1);
-  // padding: 5px;
-  // position: relative;
-  // right: 2px;
-}
+// #post_blog_entry{
+//   text-align: center;
+//   font-size: 25px;
+//   padding: 20px;
+//   color: white;
+//   text-shadow: 2px 2px 1px rgba(0, 0, 0, 1);
+// }
 
-#post_blog_entry{
-  text-align: center;
-  font-size: 25px;
-  padding: 20px;
-  color: white;
-  text-shadow: 2px 2px 1px rgba(0, 0, 0, 1);
-}
-
-#post_author{
-  position: relative;
-  left: 20px;
-  color: white;
-  text-shadow: 2px 2px 1px rgba(0, 0, 0, 1);
-}
-
-#post_title{
-  position: relative;
-  left: 15px;
-  color: white;
-  text-shadow: 2px 2px 1px rgba(0, 0, 0, 1);
-}
+// #post_author{
+//   position: relative;
+//   left: 20px;
+//   color: white;
+//   text-shadow: 2px 2px 1px rgba(0, 0, 0, 1);
+// }
+//
+// #post_title{
+//   position: relative;
+//   left: 15px;
+//   color: white;
+//   text-shadow: 2px 2px 1px rgba(0, 0, 0, 1);
+// }
 
 // a #post_side_buttons {
 //   color: white;
 //   text-shadow: 2px 2px 4px rgba(150, 150, 150, 1);
 // }
 
-td#post_side_buttons a {
-  color: white;
-  text-shadow: 2px 2px 1px rgba(0, 0, 0, 1);
-}
+// td#post_side_buttons a {
+//   color: white;
+//   text-shadow: 2px 2px 1px rgba(0, 0, 0, 1);
+// }
+//
+//
+// td#post_body.well{
+//   margin: 30px;
+// }
+//
+// #inside_post_title {
+//   color: white;
+//   text-shadow: 2px 2px 1px rgba(0, 0, 0, 1);
+// }
 
-
-td#post_body.well{
-  margin: 30px;
-}
-
-#inside_post_title {
-  color: white;
-  text-shadow: 2px 2px 1px rgba(0, 0, 0, 1);
-}
-
-#inside_username{
-  color: white;
-  text-shadow: 2px 2px 1px rgba(0, 0, 0, 1);
-}
-
-#inside_username a {
-  color: white;
-  text-shadow: 2px 2px 1px rgba(0, 0, 0, 1);
-}
-
+// #inside_username{
+//   color: white;
+//   text-shadow: 2px 2px 1px rgba(0, 0, 0, 1);
+// }
+//
+// #inside_username a {
+//   color: white;
+//   text-shadow: 2px 2px 1px rgba(0, 0, 0, 1);
+// }
+//
 #post_bottombutton a {
   color: white;
   text-shadow: 2px 2px 1px rgba(0, 0, 0, 1);
-  font-size: 25px;
+  font-size: 20px;
 }
 
 // #paginate_color {

@@ -16,7 +16,7 @@ p, ol, ul, td {
 
 pre {
   background-color: #eee;
-  // padding: 10px;
+  padding: 10px;
   font-size: 11px;
 }
 
@@ -28,8 +28,8 @@ a {
   }
 
   &:hover {
-    color: #fff;
-    background-color: #000;
+    color: white;
+    background-color: orange;
   }
 }
 
